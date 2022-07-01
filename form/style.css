@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+input, textarea {
+  height: 45px;
+  width: 100%;
+  color: #3b5983;
+  font-size: 14px;
+  line-height: 16px;
+  border: 2px solid #e9f2ff;
+  border-radius: 5px;
+  padding-left: 25px;
+}
+input:focus {
+  outline: none;
+  border: 2px solid #c1d9fd;
+}
+textarea:focus {
+    outline: none;
+    border: 2px solid #c1d9fd;
+}
+input:valid {
+  border-color: greenyellow;
+}
+textarea:valid {
+    border-color: greenyellow;
+}
+input:invalid {
+  border-color: orange;
+}
+input:not(:focus):invalid {
+  border-color: #c1d9fd;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-title {
+  color: #fa7102;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  margin: 18px;
+  text-align: center;
+}
+.form-field {
+  margin-bottom: 13px;
+  width: 400px;
+}
+ textarea {
+    margin-bottom: 13px;
+    width: 400px;
+    height: 80px;
+  }
+
+.button {
+  width: 100%;
+  font-weight: bold;
+  font-size: 14px;
+  display: block;
+  height: 45px;
+  background: #fa7102;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 45px;
+  cursor: pointer;
+  border: none;
+}
+.button:hover {
+  background-color: #c75a00;
+}
+a.button {
+  text-decoration: none;
+}
+
+.divider {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #405d87;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}

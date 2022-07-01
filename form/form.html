@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Register form</title>
+</head>
+
+<body>
+  <main>
+    <div class="circle"></div>
+    <div class="register-form-container">
+      <form action="">
+        <h1 class="form-title">
+          Events
+        </h1>
+        <div class="form-fields">
+          <div class="form-field">
+            <input type="text" placeholder="Title" required pattern="[a-zA-Z]+" title="Title can only contain letters.">
+          </div>
+          <div class="form-field">
+            <textarea  type="text" placeholder="Meeting Details" required></textarea>
+          </div>
+          <div class="form-field">
+            <input type="datetime-local" name="event-date" required>
+          </div>
+          <div class="form-field">
+            <input type="url" placeholder="Event Link" required>
+          </div>
+        </div>
+        <div class="form-buttons">
+          <button class="button">Add Event</button>
+        </div>
+      </form>
+    </div>
+  </main>
+</body>
+
+</html>
