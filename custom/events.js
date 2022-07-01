@@ -1,6 +1,6 @@
 var endpointURL =
       _spPageContextInfo.siteAbsoluteUrl +
-      "/_api/web/lists/getbytitle('Extranet-Calendar-Events')/items";
+      "*******";
     $.ajax({
       url: endpointURL,
       method: 'GET',
